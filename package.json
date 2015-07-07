@@ -10,7 +10,7 @@
   "activationCommands": {
     "atom-text-editor": "auto-indent-file:autoindentfile"
   },
-  "repository": "https://github.com/lucbu/full-auto-indent",
+  "repository": "https://github.com/lucbu/auto-indent-file",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
