@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Auto indent the current file'
+      'command': 'auto-indent-file:fullautoindent'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'full-auto-indent'
+      'submenu': [
+        {
+          'label': 'Auto indent the current file'
+          'command': 'full-auto-indent:fullautoindent'
+        }
+      ]
+    ]
+  }
+]

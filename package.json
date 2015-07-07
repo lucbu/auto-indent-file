@@ -1,0 +1,19 @@
+{
+  "name": "auto-indent-file",
+  "main": "./lib/auto-indent-file",
+  "version": "0.0.0",
+  "description": "Allow user to auto indent the current file.",
+  "keywords": [
+    "autoindent",
+    "fast"
+  ],
+  "activationCommands": {
+    "atom-text-editor": "auto-indent-file:autoindentfile"
+  },
+  "repository": "https://github.com/lucbu/full-auto-indent",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
